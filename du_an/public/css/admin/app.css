@@ -1,0 +1,38 @@
+* {
+    background-color: azure;
+}
+
+body {
+    font-size: 16;
+}
+
+div {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.content {
+    display: flex;
+    border: 1px solid;
+    padding: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: rgb(49, 219, 165);
+}
+
+.form-login {
+    padding: 10px;
+    border: 1px solid;
+}
+
+.content-left {
+    min-width: 50%;
+    justify-content: start;
+    background-color: rgb(105, 34, 192);
+}
+
+.content-right {
+    min-width: 50%;
+    justify-content: end;
+    background-color: rgb(58, 126, 214);
+}
